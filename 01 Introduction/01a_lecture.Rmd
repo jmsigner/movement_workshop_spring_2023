@@ -32,6 +32,12 @@ theme_set(theme_light())
 - We are Brian and Johannes.
 - Who are you? *Pair up and introduce your partner*
 
+- Ask your partner: 
+  - What is your background?
+  - Where do you come from?
+  - Where do you study/work?
+  - What is your study organism?
+  
 # Outline of the course
 
 ### Day 1:

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.10)  3 MAR 2023 22:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.10)  13 MAR 2023 11:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1125,7 +1125,7 @@ Package pdftex.def Info: /home/jsigner/ownCloud/img/logo-abteilung.png  used on
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/jsigner/ownCloud/img
 /logo-uni.png> </home/jsigner/ownCloud/img/logo-abteilung.png>]
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-263.
+276.
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1134,34 +1134,34 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-63.
+76.
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-263.
+276.
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-263.
+276.
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 263.
+(Font)              <10.95> on input line 276.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 263.
+(Font)              <8> on input line 276.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 263.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 263
+(Font)              <6> on input line 276.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 276
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 263
+LaTeX Font Info:    Trying to load font information for U+msb on input line 276
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1169,42 +1169,41 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 263.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 276.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 263.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 276.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 263.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 276.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 276.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 276.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 276.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 276.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 276.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 276.
 [2
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 288.
+(Font)              <12> on input line 301.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 288.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 301.
 [3
 
 ] [4
 
-]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 357.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 357.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 357.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 357.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 357.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 357.
-[5
+] [5
 
 ]
 <img/joo2020.png, id=58, 544.0325pt x 229.85875pt>
 File: img/joo2020.png Graphic file (type png)
 <use img/joo2020.png>
-Package pdftex.def Info: img/joo2020.png  used on input line 380.
+Package pdftex.def Info: img/joo2020.png  used on input line 393.
 (pdftex.def)             Requested size: 230.46739pt x 97.37476pt.
 [6
 
@@ -1277,7 +1276,7 @@ l.2 \protect\hypertarget{take-home-messages-1}{}
 <../img/relocs.png, id=156, 954.56625pt x 212.795pt>
 File: ../img/relocs.png Graphic file (type png)
 <use ../img/relocs.png>
-Package pdftex.def Info: ../img/relocs.png  used on input line 642.
+Package pdftex.def Info: ../img/relocs.png  used on input line 655.
 (pdftex.def)             Requested size: 261.19826pt x 58.22495pt.
 [21
 
@@ -1312,13 +1311,13 @@ Package pdftex.def Info: ../img/relocs.png  used on input line 642.
 <../img/jonsen2023_mee.png, id=200, 1066.98625pt x 497.86pt>
 File: ../img/jonsen2023_mee.png Graphic file (type png)
 <use ../img/jonsen2023_mee.png>
-Package pdftex.def Info: ../img/jonsen2023_mee.png  used on input line 748.
+Package pdftex.def Info: ../img/jonsen2023_mee.png  used on input line 761.
 (pdftex.def)             Requested size: 261.19826pt x 121.8742pt.
 [28
 
  <../img/jonsen2023_mee.png>]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 772.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 785.
 [29
 
 ]
@@ -1330,7 +1329,7 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <14.4> not available
 <img/nsd.png, id=219, 443.6575pt x 408.52625pt>
 File: img/nsd.png Graphic file (type png)
 <use img/nsd.png>
-Package pdftex.def Info: img/nsd.png  used on input line 799.
+Package pdftex.def Info: img/nsd.png  used on input line 812.
 (pdftex.def)             Requested size: 184.3758pt x 169.77211pt.
 [31
 
@@ -1357,7 +1356,7 @@ File: 01a_lecture_files/figure-beamer/unnamed-chunk-12-1.pdf Graphic file (type
  pdf)
 <use 01a_lecture_files/figure-beamer/unnamed-chunk-12-1.pdf>
 Package pdftex.def Info: 01a_lecture_files/figure-beamer/unnamed-chunk-12-1.pdf
-  used on input line 829.
+  used on input line 842.
 (pdftex.def)             Requested size: 261.19826pt x 170.78912pt.
 [34
 
@@ -1368,7 +1367,7 @@ File: 01a_lecture_files/figure-beamer/unnamed-chunk-13-1.pdf Graphic file (type
  pdf)
 <use 01a_lecture_files/figure-beamer/unnamed-chunk-13-1.pdf>
 Package pdftex.def Info: 01a_lecture_files/figure-beamer/unnamed-chunk-13-1.pdf
-  used on input line 833.
+  used on input line 846.
 (pdftex.def)             Requested size: 261.19826pt x 170.78912pt.
 [35
 
@@ -1379,7 +1378,7 @@ File: 01a_lecture_files/figure-beamer/unnamed-chunk-14-1.pdf Graphic file (type
  pdf)
 <use 01a_lecture_files/figure-beamer/unnamed-chunk-14-1.pdf>
 Package pdftex.def Info: 01a_lecture_files/figure-beamer/unnamed-chunk-14-1.pdf
-  used on input line 837.
+  used on input line 850.
 (pdftex.def)             Requested size: 261.19826pt x 173.57925pt.
 [36
 
@@ -1389,7 +1388,7 @@ Package pdftex.def Info: 01a_lecture_files/figure-beamer/unnamed-chunk-14-1.pdf
 <img/moll3_part.jpg, id=300, 2134.97626pt x 808.01875pt>
 File: img/moll3_part.jpg Graphic file (type jpg)
 <use img/moll3_part.jpg>
-Package pdftex.def Info: img/moll3_part.jpg  used on input line 867.
+Package pdftex.def Info: img/moll3_part.jpg  used on input line 880.
 (pdftex.def)             Requested size: 261.19826pt x 98.84445pt.
 [38
 
@@ -1399,11 +1398,11 @@ Package pdftex.def Info: img/moll3_part.jpg  used on input line 867.
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 936.
+(Font)              <9> on input line 949.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 936.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 949.
 
-Overfull \vbox (5.68623pt too high) detected at line 936
+Overfull \vbox (5.68623pt too high) detected at line 949
  []
 
 [41
@@ -1425,11 +1424,11 @@ Package rerunfilecheck Info: File `01a_lecture.out' has not changed.
 Here is how much of TeX's memory you used:
  30725 strings out of 480121
  594392 string characters out of 5892160
- 859127 words of memory out of 5000000
+ 860127 words of memory out of 5000000
  47737 multiletter control sequences out of 15000+600000
  565965 words of font info for 166 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 128i,12n,122p,1008b,702s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,12n,122p,1008b,684s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/publi
@@ -1441,7 +1440,7 @@ f/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy
 s/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmtt8.pfb></usr/share/texmf/fonts/type
 1/public/lm/lmtt9.pfb>
-Output written on 01a_lecture.pdf (41 pages, 1031230 bytes).
+Output written on 01a_lecture.pdf (41 pages, 1031389 bytes).
 PDF statistics:
  423 PDF objects out of 1000 (max. 8388607)
  320 compressed objects within 4 object streams
