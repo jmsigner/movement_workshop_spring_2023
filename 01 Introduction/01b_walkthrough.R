@@ -21,6 +21,7 @@ library(lubridate) # to deal with date and time
 dat <- read.csv("data/fisher.csv")
 
 head(dat)
+str(dat)
 
 # We have six variables (columns):
 # 1. and 2. `x_` and `y_` the coordinates for each data point.
@@ -34,6 +35,7 @@ head(dat)
 
 dat$ts <- ymd_hms(dat$t_, tz = "UTC")
 head(dat$ts)
+str(dat)
 
 # Important: if your time zone is different from UTC (the default), make sure
 # you correctly specify the time zone with the argument `tz`.
@@ -74,6 +76,7 @@ make_track(dat, x_, y_, ts, crs = 5070)
 # If we want to retain the name column. There is also the argument `all_cols`
 # which will keep all columns.
 tr <- make_track(dat, x_, y_, ts, name = name, crs = 5070)
+tr
 
 # Working with tracks ----
 
@@ -82,8 +85,11 @@ tr <- make_track(dat, x_, y_, ts, name = name, crs = 5070)
 # Tracks are by design compatible with `dplyr`s verbs. For example, if we want
 # to work with only one animal, we can just use the `filter()` function.
 
-leroy <- tr %>% filter(name == "Leroy")
+leroy <- tr |> filter(name == "Leroy")
 leroy
+
+class(tr)
+class(leroy)
 
 # Other dplyr functions such as mutate, select, arrange, group_by, count,
 # summarize work as well.
@@ -140,6 +146,8 @@ leroy2
 nrow(leroy)
 nrow(leroy2)
 
+unique(leroy2$burst_)
+
 # Note that we lost 26 observations and gained one column (`burst_`). We lost
 # observations that are not within the predefined sampling rate. And each
 # relocation that we retained belongs now to a burst. A burst is a sequence of
@@ -149,6 +157,8 @@ nrow(leroy2)
 # be achieved with the function `filter_min_n_burst()`
 
 leroy2 <- filter_min_n_burst(leroy2, min_n = 3)
+
+nrow(leroy2)
 
 # ... Movement attributes ----
 
@@ -198,7 +208,7 @@ leroy2 %>% steps()
 # This is problematic if there is a large time gap between to consecutive
 # points. To overcome this, we can use `steps_by_burst()`.
 
-leroy2 %>% steps_by_burst() 
+s2 <- leroy2 %>% steps_by_burst() 
 
 # The resulting tibble has 11 columns by default: 
 # - `burst_`: the burst number.
@@ -210,10 +220,14 @@ leroy2 %>% steps_by_burst()
 # - `t1_` and `t2_`: the start and end time of a step.
 # - `dt_`: te duration of a step.
 
+s2 |> print(n = Inf)
+
+
+
 # Time of day ----
 
 leroy2 %>% time_of_day() %>% count(tod_)
 
 leroy2 %>% steps_by_burst() %>% time_of_day(where = "both")
 
-
+?suncalc::getSunlightTimes

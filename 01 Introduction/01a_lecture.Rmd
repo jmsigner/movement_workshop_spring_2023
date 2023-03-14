@@ -37,6 +37,7 @@ theme_set(theme_light())
   - Where do you come from?
   - Where do you study/work?
   - What is your study organism?
+  - Why do you attend this course?
   
 # Outline of the course
 

@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.10)  13 MAR 2023 14:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.10)  13 MAR 2023 12:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**01a_lecture.tex
-(./01a_lecture.tex
+**04a_lecture.tex
+(./04a_lecture.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/beam
 er/beamer.cls
@@ -920,8 +920,8 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count370
 \l__pdf_internal_box=\box101
-) (./01a_lecture.aux)
-\openout1 = `01a_lecture.aux'.
+) (./04a_lecture.aux)
+\openout1 = `04a_lecture.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 247.
 LaTeX Font Info:    ... okay on input line 247.
@@ -1009,9 +1009,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 247.
 LaTeX Info: Redefining \pageref on input line 247.
 LaTeX Info: Redefining \nameref on input line 247.
-(./01a_lecture.out) (./01a_lecture.out)
+(./04a_lecture.out) (./04a_lecture.out)
 \@outlinefile=\write6
-\openout6 = `01a_lecture.out'.
+\openout6 = `04a_lecture.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 247.
@@ -1106,7 +1106,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-(./01a_lecture.nav)
+(./04a_lecture.nav)
 </home/jsigner/ownCloud/img/logo-uni.png, id=13, 480.79625pt x 397.485pt>
 File: /home/jsigner/ownCloud/img/logo-uni.png Graphic file (type png)
 <use /home/jsigner/ownCloud/img/logo-uni.png>
@@ -1124,8 +1124,11 @@ Package pdftex.def Info: /home/jsigner/ownCloud/img/logo-abteilung.png  used on
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/jsigner/ownCloud/img
 /logo-uni.png> </home/jsigner/ownCloud/img/logo-abteilung.png>]
+\openout4 = `04a_lecture.vrb'.
+
+(./04a_lecture.vrb
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-278.
+6.
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1133,317 +1136,268 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-78.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
+.
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-278.
+6.
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-278.
+6.
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 278.
+(Font)              <10.95> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 278.
+(Font)              <8> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 278.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 278
-.
+(Font)              <6> on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 278
-.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 278.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 6.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 278.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 6.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 278.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 278.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 278.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 278.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 278.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 278.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 278.
-[2
-
-]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 303.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 303.
-[3
-
-] [4
-
-] [5
-
-]
-<img/joo2020.png, id=58, 544.0325pt x 229.85875pt>
-File: img/joo2020.png Graphic file (type png)
-<use img/joo2020.png>
-Package pdftex.def Info: img/joo2020.png  used on input line 395.
-(pdftex.def)             Requested size: 230.46739pt x 97.37476pt.
-[6
-
- <./img/joo2020.png>]
-\openout4 = `01a_lecture.vrb'.
-
-(./01a_lecture.vrb
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
-.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 6.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+1.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) [7
+)) [2
+
+] [3
 
 ]
-\openout4 = `01a_lecture.vrb'.
+\openout4 = `04a_lecture.vrb'.
 
-(./01a_lecture.vrb) [8
-
-]
-\openout4 = `01a_lecture.vrb'.
-
-(./01a_lecture.vrb) [9
+(./04a_lecture.vrb) [4
 
 ]
-\openout4 = `01a_lecture.vrb'.
+\openout4 = `04a_lecture.vrb'.
 
-(./01a_lecture.vrb) [10
-
-]
-\openout4 = `01a_lecture.vrb'.
-
-(./01a_lecture.vrb) [11
+(./04a_lecture.vrb) [5
 
 ]
-\openout4 = `01a_lecture.vrb'.
+\openout4 = `04a_lecture.vrb'.
 
-(./01a_lecture.vrb
+(./04a_lecture.vrb
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 2.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 2.
+) [6
+
+]
+\openout4 = `04a_lecture.vrb'.
+
+(./04a_lecture.vrb) [7
+
+]
+\openout4 = `04a_lecture.vrb'.
+
+(./04a_lecture.vrb) [8
+
+]
+\openout4 = `04a_lecture.vrb'.
+
+(./04a_lecture.vrb) [9
+
+]
+\openout4 = `04a_lecture.vrb'.
+
+(./04a_lecture.vrb) [10
+
+]
+\openout4 = `04a_lecture.vrb'.
+
+(./04a_lecture.vrb
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 10.
-) [12
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 15.
+) [11
 
 ]
-\openout4 = `01a_lecture.vrb'.
+\openout4 = `04a_lecture.vrb'.
 
-(./01a_lecture.vrb) [13
+(./04a_lecture.vrb) [12
 
-] [14
+]
+\openout4 = `04a_lecture.vrb'.
 
-] [15
+(./04a_lecture.vrb) [13
 
-] [16
+]
+\openout4 = `04a_lecture.vrb'.
 
-] [17
+(./04a_lecture.vrb) [14
+
+]
+\openout4 = `04a_lecture.vrb'.
+
+(./04a_lecture.vrb
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 3.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 3.
+) [15
+
+]
+\openout4 = `04a_lecture.vrb'.
+
+(./04a_lecture.vrb) [16
+
+]
+\openout4 = `04a_lecture.vrb'.
+
+(./04a_lecture.vrb) [17
 
 ] [18
 
 ]
-\openout4 = `01a_lecture.vrb'.
+\openout4 = `04a_lecture.vrb'.
 
-(./01a_lecture.vrb) [19
-
-] (./01a_lecture.vrbpdfTeX warning (ext4): destination with the same identifier
- (name{take-home-messages-1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2 \protect\hypertarget{take-home-messages-1}{}
-                                                ) [20
+(./04a_lecture.vrb) [19
 
 ]
-<../img/relocs.png, id=156, 954.56625pt x 212.795pt>
-File: ../img/relocs.png Graphic file (type png)
-<use ../img/relocs.png>
-Package pdftex.def Info: ../img/relocs.png  used on input line 657.
-(pdftex.def)             Requested size: 261.19826pt x 58.22495pt.
-[21
+\openout4 = `04a_lecture.vrb'.
 
- <../img/relocs.png>] [22
+(./04a_lecture.vrb) [20
 
 ]
-\openout4 = `01a_lecture.vrb'.
+\openout4 = `04a_lecture.vrb'.
 
-(./01a_lecture.vrb) [23
-
-]
-\openout4 = `01a_lecture.vrb'.
-
-(./01a_lecture.vrb) [24
+(./04a_lecture.vrb) [21
 
 ]
-\openout4 = `01a_lecture.vrb'.
+\openout4 = `04a_lecture.vrb'.
 
-(./01a_lecture.vrb) [25
-
-]
-\openout4 = `01a_lecture.vrb'.
-
-(./01a_lecture.vrb) [26
+(./04a_lecture.vrb) [22
 
 ]
-\openout4 = `01a_lecture.vrb'.
+\openout4 = `04a_lecture.vrb'.
 
-(./01a_lecture.vrb) [27
-
-]
-<../img/jonsen2023_mee.png, id=200, 1066.98625pt x 497.86pt>
-File: ../img/jonsen2023_mee.png Graphic file (type png)
-<use ../img/jonsen2023_mee.png>
-Package pdftex.def Info: ../img/jonsen2023_mee.png  used on input line 763.
-(pdftex.def)             Requested size: 261.19826pt x 121.8742pt.
-[28
-
- <../img/jonsen2023_mee.png>]
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 787.
-[29
+(./04a_lecture.vrb) [23
 
 ]
-\openout4 = `01a_lecture.vrb'.
+\openout4 = `04a_lecture.vrb'.
 
-(./01a_lecture.vrb) [30
-
-]
-<img/nsd.png, id=219, 443.6575pt x 408.52625pt>
-File: img/nsd.png Graphic file (type png)
-<use img/nsd.png>
-Package pdftex.def Info: img/nsd.png  used on input line 814.
-(pdftex.def)             Requested size: 184.3758pt x 169.77211pt.
-[31
-
- <./img/nsd.png>]
-\openout4 = `01a_lecture.vrb'.
-
-(./01a_lecture.vrb) [32
-
-]
-\openout4 = `01a_lecture.vrb'.
-
-(./01a_lecture.vrb
-<img/steps.png, id=234, 376.40625pt x 173.64874pt>
-File: img/steps.png Graphic file (type png)
-<use img/steps.png>
-Package pdftex.def Info: img/steps.png  used on input line 5.
-(pdftex.def)             Requested size: 153.64493pt x 70.88377pt.
-) [33
-
- <./img/steps.png>]
-<01a_lecture_files/figure-beamer/unnamed-chunk-12-1.pdf, id=241, 313.17pt x 204
-.765pt>
-File: 01a_lecture_files/figure-beamer/unnamed-chunk-12-1.pdf Graphic file (type
- pdf)
-<use 01a_lecture_files/figure-beamer/unnamed-chunk-12-1.pdf>
-Package pdftex.def Info: 01a_lecture_files/figure-beamer/unnamed-chunk-12-1.pdf
-  used on input line 844.
-(pdftex.def)             Requested size: 261.19826pt x 170.78912pt.
-[34
-
- <./01a_lecture_files/figure-beamer/unnamed-chunk-12-1.pdf>]
-<01a_lecture_files/figure-beamer/unnamed-chunk-13-1.pdf, id=258, 313.17pt x 204
-.765pt>
-File: 01a_lecture_files/figure-beamer/unnamed-chunk-13-1.pdf Graphic file (type
- pdf)
-<use 01a_lecture_files/figure-beamer/unnamed-chunk-13-1.pdf>
-Package pdftex.def Info: 01a_lecture_files/figure-beamer/unnamed-chunk-13-1.pdf
-  used on input line 848.
-(pdftex.def)             Requested size: 261.19826pt x 170.78912pt.
-[35
-
- <./01a_lecture_files/figure-beamer/unnamed-chunk-13-1.pdf>]
-<01a_lecture_files/figure-beamer/unnamed-chunk-14-1.pdf, id=275, 308.15125pt x 
-204.765pt>
-File: 01a_lecture_files/figure-beamer/unnamed-chunk-14-1.pdf Graphic file (type
- pdf)
-<use 01a_lecture_files/figure-beamer/unnamed-chunk-14-1.pdf>
-Package pdftex.def Info: 01a_lecture_files/figure-beamer/unnamed-chunk-14-1.pdf
-  used on input line 852.
-(pdftex.def)             Requested size: 261.19826pt x 173.57925pt.
-[36
-
- <./01a_lecture_files/figure-beamer/unnamed-chunk-14-1.pdf>] [37
-
-]
-<img/moll3_part.jpg, id=300, 2134.97626pt x 808.01875pt>
-File: img/moll3_part.jpg Graphic file (type jpg)
-<use img/moll3_part.jpg>
-Package pdftex.def Info: img/moll3_part.jpg  used on input line 882.
-(pdftex.def)             Requested size: 261.19826pt x 98.84445pt.
-[38
-
- <./img/moll3_part.jpg>] [39
-
-] [40
-
-]
+(./04a_lecture.vrb
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 951.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 951.
+(Font)              <10> on input line 14.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 14.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 14.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 14.
+) [24
 
-Overfull \vbox (5.68623pt too high) detected at line 951
+]
+\openout4 = `04a_lecture.vrb'.
+
+(./04a_lecture.vrb) [25
+
+]
+\openout4 = `04a_lecture.vrb'.
+
+(./04a_lecture.vrb) [26
+
+]
+\openout4 = `04a_lecture.vrb'.
+
+(./04a_lecture.vrb) [27
+
+]
+\openout4 = `04a_lecture.vrb'.
+
+(./04a_lecture.vrb) [28
+
+]
+\openout4 = `04a_lecture.vrb'.
+
+(./04a_lecture.vrb) [29
+
+]
+\openout4 = `04a_lecture.vrb'.
+
+(./04a_lecture.vrb) [30
+
+]
+\openout4 = `04a_lecture.vrb'.
+
+(./04a_lecture.vrb) [31
+
+]
+\openout4 = `04a_lecture.vrb'.
+
+(./04a_lecture.vrb) [32
+
+]
+\openout4 = `04a_lecture.vrb'.
+
+(./04a_lecture.vrb) [33
+
+]
+\openout4 = `04a_lecture.vrb'.
+
+(./04a_lecture.vrb)
+Overfull \vbox (11.41058pt too high) detected at line 1018
  []
 
-[41
+[34
+
+] [35
 
 ]
 \tf@nav=\write7
-\openout7 = `01a_lecture.nav'.
+\openout7 = `04a_lecture.nav'.
 
 \tf@toc=\write8
-\openout8 = `01a_lecture.toc'.
+\openout8 = `04a_lecture.toc'.
 
 \tf@snm=\write9
-\openout9 = `01a_lecture.snm'.
+\openout9 = `04a_lecture.snm'.
 
-(./01a_lecture.aux)
-Package rerunfilecheck Info: File `01a_lecture.out' has not changed.
+(./04a_lecture.aux)
+Package rerunfilecheck Info: File `04a_lecture.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30725 strings out of 480121
- 594392 string characters out of 5892160
- 860127 words of memory out of 5000000
- 47737 multiletter control sequences out of 15000+600000
- 565965 words of font info for 166 fonts, out of 8000000 for 9000
+ 30547 strings out of 480121
+ 590142 string characters out of 5892160
+ 863120 words of memory out of 5000000
+ 47596 multiletter control sequences out of 15000+600000
+ 558208 words of font info for 151 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 128i,12n,122p,1008b,684s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,12n,122p,1008b,604s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/
-lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso8.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy
-9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/font
-s/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmtt8.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmtt9.pfb>
-Output written on 01a_lecture.pdf (41 pages, 1031420 bytes).
+c/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmt
+t12.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmtti10.pfb>
+Output written on 04a_lecture.pdf (35 pages, 496090 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
- 320 compressed objects within 4 object streams
- 117 named destinations out of 1000 (max. 500000)
- 57442 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 296 PDF objects out of 1000 (max. 8388607)
+ 225 compressed objects within 3 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 53301 words of extra memory for PDF output out of 61914 (max. 10000000)
 
