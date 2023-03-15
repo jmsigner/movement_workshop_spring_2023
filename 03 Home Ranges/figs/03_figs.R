@@ -73,7 +73,7 @@ polys <- rbind(kde_poly, akde_poly)
 
 # Make plots
 (occ_plot <- ggplot() +
-    geom_sf(data = kde_poly, color = "gray70", size = 1, fill = NA) +
+    geom_sf(data = kde_poly, color = "gray70", linewidth = 1, fill = NA) +
     # Just to set the limits (100% transparent)
     geom_point(data = rng, aes(x = x_, y = y_), color = "#00000000") +
     geom_point(data = occ, aes(x = x_, y = y_), color = "blue", size = 1.25) +
@@ -87,7 +87,7 @@ polys <- rbind(kde_poly, akde_poly)
 
 (rng_plot <- ggplot() +
     geom_sf(data = polys, aes(color = type, linetype = what), 
-            size = 1, fill = NA) +
+            linewidth = 1, fill = NA) +
     geom_point(data = rng, aes(x = x_, y = y_), color = "orange", size = 1) +
     geom_point(data = occ, aes(x = x_, y = y_), color = "blue", size = 1.25) +
     xlab(NULL) +

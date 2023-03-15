@@ -274,7 +274,7 @@ template: prob
 .pull-left[
 ### Autocorrelated Kernel Density Estimator (aKDE)
 
-- Based on an underlying continuous-time movement model (next module).
+- Based on an underlying continuous-time movement model.
 - Uses autocorrelation in the movement data to estimate the smoothing parameter.
 - Estimates the **range distribution**.
 

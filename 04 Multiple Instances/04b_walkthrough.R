@@ -56,6 +56,7 @@ floor_date(ymd_hms("2022-01-20 20:12:10"), unit = "3 hours")
 
 # Here we add a new column called `day` to our data set.
 dat <- dat |> mutate(day = floor_date(t_, unit = "day"))
+dat
 
 # To get a brief overview of the data, it makes sense to count how many
 # observation we have per animal
@@ -244,7 +245,7 @@ dat1 |> group_by(name) |>
   summarize(cor = cor(n, area.mcp))
 
 # Or we can use a simple linear model here:
-dat1 |> lm(area.mcp ~ n + name, data = .) |> summary()
+lm(area.mcp ~ n + name, data = dat1) |> summary()
 
 # Subsampling would clearly be a good idea. Let's rerun everything with
 # subsampling. We can just add one step to into our tidy workflow.
@@ -265,7 +266,7 @@ dat2
 ggplot(dat2, aes(n, area.mcp, col = name)) + geom_point() + geom_smooth()
 
 # And the linear model
-dat2 |> lm(area.mcp ~ n + name, data = .) |> summary()
+lm(area.mcp ~ n + name, data = dat2) |> summary()
 
 # Maybe we should only consider days with at least 10 relocations? This is esay
 # to achieve, since we already have a column called `n`, so we just need to
@@ -275,8 +276,7 @@ ggplot(dat2 |> filter(n >= 10), aes(n, area.mcp, col = name)) +
   geom_point() + geom_smooth()
 
 # And the linear model
-dat2 |> filter(n >= 10) |> 
-  lm(area.mcp ~ n + name, data = .) |> summary()
+lm(area.mcp ~ n + name, data = filter(dat2, n >= 10)) |> summary()
 
 # So we can conclude that sample size does not matter, since the coefficient for
 # `n` is not significatly different from zero.
@@ -316,5 +316,6 @@ dat3 |> ggplot(aes(name, hrs, fill = estimator)) + geom_boxplot() +
 # Overlap between MCP and KDE ----
 
 dat2 <- dat2[1:10, ] |> mutate(overlap = map2(hr.mcp, hr.kde, ~ hr_overlap(.x, .y)))
+dat2
 dat2 |> unnest(overlap)
 
