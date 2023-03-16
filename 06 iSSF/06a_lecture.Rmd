@@ -90,13 +90,6 @@ We will cover this in much more detail in the R walkthrough. The workflow to fit
 knitr::include_graphics("img/ssf1.png")
 ```
 
------
-
-3. Sample for each observed step $k$ random steps using the distribution from the observed steps and turn angles.
-
-4. Extract covariates at the **end** of steps, and
-
-5. Fit a conditional logistic regression.
 
 ----
 
@@ -120,6 +113,8 @@ ggplot(trk, aes(x, y, group = burst_, col = factor(burst_))) +
 
 ```
 
+---------------
+
 
 ```{r, echo = FALSE}
 trk1 <- trk |> make_track(x, y, t, burst_ = burst_)
@@ -140,6 +135,15 @@ ggplot(trk, aes(x, y, group = burst_, col = factor(burst_))) +
 ```
 
 ----
+
+
+3. Sample for each observed step $k$ random steps using the distribution from the observed steps and turn angles.
+
+4. Extract covariates at the **end** of steps, and
+
+5. Fit a conditional logistic regression.
+
+------
 
 - Interpretation of parameters can be done exactly the same way as for HSF (previous module). 
 - The relative selection strength (RSS) is how many times more probable it is, to select one step over an other step, when the two steps differ in one covariate at the end of the step.
@@ -240,7 +244,7 @@ Note, `dnorm()` is a built-in function for the normal density function.
 \pause
 
 
-- For step lengths we need a distribution with a support of positive angles. 
+- For step lengths we need a distribution with a support of positive values. 
 - For turn angles we need a wrapped distribution. 
 
 -------
@@ -278,7 +282,7 @@ params %>% mutate(
 ## Distributions for turn angles
 
 - For turn angles we need a wrapped distribution. 
-- A typical distributions are the von Mieses or the wrapped Cauchy distribution. 
+- A typical distributions are the von Mises or the wrapped Cauchy distribution. 
 
 -------
 

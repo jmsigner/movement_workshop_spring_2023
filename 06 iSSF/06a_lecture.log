@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.10)  14 MAR 2023 22:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.10)  15 MAR 2023 20:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1258,86 +1258,84 @@ Package pdftex.def Info: img/ssf1.png  used on input line 345.
 (pdftex.def)             Requested size: 261.19826pt x 146.10088pt.
 [9
 
- <./img/ssf1.png>] [10
-
-]
-<06a_lecture_files/figure-beamer/unnamed-chunk-4-1.pdf, id=92, 416.55624pt x 27
+ <./img/ssf1.png>]
+<06a_lecture_files/figure-beamer/unnamed-chunk-4-1.pdf, id=87, 416.55624pt x 27
 7.035pt>
 File: 06a_lecture_files/figure-beamer/unnamed-chunk-4-1.pdf Graphic file (type 
 pdf)
 <use 06a_lecture_files/figure-beamer/unnamed-chunk-4-1.pdf>
 Package pdftex.def Info: 06a_lecture_files/figure-beamer/unnamed-chunk-4-1.pdf 
- used on input line 364.
+ used on input line 349.
 (pdftex.def)             Requested size: 261.19826pt x 173.72134pt.
-<06a_lecture_files/figure-beamer/unnamed-chunk-5-1.pdf, id=93, 415.5525pt x 277
-.035pt>
+[10
+
+ <./06a_lecture_files/figure-beamer/unnamed-chunk-4-1.pdf>]
+<06a_lecture_files/figure-beamer/unnamed-chunk-5-1.pdf, id=104, 415.5525pt x 27
+7.035pt>
 File: 06a_lecture_files/figure-beamer/unnamed-chunk-5-1.pdf Graphic file (type 
 pdf)
 <use 06a_lecture_files/figure-beamer/unnamed-chunk-5-1.pdf>
 Package pdftex.def Info: 06a_lecture_files/figure-beamer/unnamed-chunk-5-1.pdf 
- used on input line 364.
+ used on input line 353.
 (pdftex.def)             Requested size: 261.19826pt x 174.13983pt.
-
-Overfull \vbox (117.15501pt too high) detected at line 364
- []
-
 [11
 
- <./06a_lecture_files/figure-beamer/unnamed-chunk-4-1.pdf> <./06a_lecture_files
-/figure-beamer/unnamed-chunk-5-1.pdf>] [12
+ <./06a_lecture_files/figure-beamer/unnamed-chunk-5-1.pdf>] [12
+
+] [13
 
 ]
 \openout4 = `06a_lecture.vrb'.
 
-(./06a_lecture.vrb) [13
+(./06a_lecture.vrb) [14
 
-] (./06a_lecture.vrb) [14
-
-] [15
+] (./06a_lecture.vrb) [15
 
 ] [16
 
+] [17
+
 ]
-<../img/avgar.png, id=151, 1024.82875pt x 413.545pt>
+<../img/avgar.png, id=156, 1024.82875pt x 413.545pt>
 File: ../img/avgar.png Graphic file (type png)
 <use ../img/avgar.png>
-Package pdftex.def Info: ../img/avgar.png  used on input line 448.
+Package pdftex.def Info: ../img/avgar.png  used on input line 450.
 (pdftex.def)             Requested size: 215.10196pt x 86.79652pt.
-<../img/fieberg.png, id=152, 1061.9675pt x 394.47375pt>
+<../img/fieberg.png, id=157, 1061.9675pt x 394.47375pt>
 File: ../img/fieberg.png Graphic file (type png)
 <use ../img/fieberg.png>
-Package pdftex.def Info: ../img/fieberg.png  used on input line 448.
+Package pdftex.def Info: ../img/fieberg.png  used on input line 450.
 (pdftex.def)             Requested size: 215.10196pt x 79.89854pt.
-[17
+[18
 
  <../img/avgar.png> <../img/fieberg.png>]pdfTeX warning (ext4): destination wit
 h the same identifier (name{for-background-see}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.448 \end{frame}
+l.450 \end{frame}
                  
 File: ../img/avgar.png Graphic file (type png)
 <use ../img/avgar.png>
-Package pdftex.def Info: ../img/avgar.png  used on input line 448.
+Package pdftex.def Info: ../img/avgar.png  used on input line 450.
 (pdftex.def)             Requested size: 215.10196pt x 86.79652pt.
 File: ../img/fieberg.png Graphic file (type png)
 <use ../img/fieberg.png>
-Package pdftex.def Info: ../img/fieberg.png  used on input line 448.
+Package pdftex.def Info: ../img/fieberg.png  used on input line 450.
 (pdftex.def)             Requested size: 215.10196pt x 79.89854pt.
-[18
-
-] [19
+[19
 
 ] [20
 
 ] [21
 
+] [22
+
 ]
 \openout4 = `06a_lecture.vrb'.
 
 (./06a_lecture.vrb
-<06a_lecture_files/figure-beamer/unnamed-chunk-9-1.pdf, id=184, 400.49625pt x 2
+<06a_lecture_files/figure-beamer/unnamed-chunk-9-1.pdf, id=189, 400.49625pt x 2
 17.81375pt>
 File: 06a_lecture_files/figure-beamer/unnamed-chunk-9-1.pdf Graphic file (type 
 pdf)
@@ -1345,76 +1343,76 @@ pdf)
 Package pdftex.def Info: 06a_lecture_files/figure-beamer/unnamed-chunk-9-1.pdf 
  used on input line 11.
 (pdftex.def)             Requested size: 184.3758pt x 100.2753pt.
-) [22
+) [23
 
- <./06a_lecture_files/figure-beamer/unnamed-chunk-9-1.pdf>] [23
-
-] [24
+ <./06a_lecture_files/figure-beamer/unnamed-chunk-9-1.pdf>] [24
 
 ] [25
 
+] [26
+
 ]
-<06a_lecture_files/figure-beamer/unnamed-chunk-10-1.pdf, id=214, 424.58624pt x 
+<06a_lecture_files/figure-beamer/unnamed-chunk-10-1.pdf, id=219, 424.58624pt x 
 271.0125pt>
 File: 06a_lecture_files/figure-beamer/unnamed-chunk-10-1.pdf Graphic file (type
  pdf)
 <use 06a_lecture_files/figure-beamer/unnamed-chunk-10-1.pdf>
 Package pdftex.def Info: 06a_lecture_files/figure-beamer/unnamed-chunk-10-1.pdf
-  used on input line 559.
+  used on input line 561.
 (pdftex.def)             Requested size: 307.28987pt x 196.15025pt.
-[26
+[27
 
- <./06a_lecture_files/figure-beamer/unnamed-chunk-10-1.pdf>] [27
+ <./06a_lecture_files/figure-beamer/unnamed-chunk-10-1.pdf>] [28
 
 ]
-<../01 Introduction/img/moll3_part.jpg, id=233, 2134.97626pt x 808.01875pt>
+<../01 Introduction/img/moll3_part.jpg, id=238, 2134.97626pt x 808.01875pt>
 File: ../01 Introduction/img/moll3_part.jpg Graphic file (type jpg)
 <use ../01 Introduction/img/moll3_part.jpg>
 Package pdftex.def Info: ../01 Introduction/img/moll3_part.jpg  used on input l
-ine 595.
+ine 597.
 (pdftex.def)             Requested size: 261.19826pt x 98.84445pt.
-[28
+[29
 
- <../01 Introduction/img/moll3_part.jpg>] [29
+ <../01 Introduction/img/moll3_part.jpg>] [30
 
-] [30
+] [31
 
 ]
 File: img/ssf1.png Graphic file (type png)
 <use img/ssf1.png>
-Package pdftex.def Info: img/ssf1.png  used on input line 634.
+Package pdftex.def Info: img/ssf1.png  used on input line 636.
 (pdftex.def)             Requested size: 261.19826pt x 146.10088pt.
-[31
-
-] [32
+[32
 
 ] [33
 
+] [34
+
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 704.
+(Font)              <5> on input line 706.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 704.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 706.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 704.
+(Font)              <10> on input line 706.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 704.
+(Font)              <7> on input line 706.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 704.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 706.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 704.
-[34
-
-] [35
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 706.
+[35
 
 ] [36
 
+] [37
+
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 766.
+(Font)              <9> on input line 768.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 766.
-[37
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 768.
+[38
 
 ]
 \tf@nav=\write7
@@ -1431,10 +1429,10 @@ Package rerunfilecheck Info: File `06a_lecture.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30801 strings out of 480121
- 596574 string characters out of 5892160
+ 30805 strings out of 480121
+ 596609 string characters out of 5892160
  863063 words of memory out of 5000000
- 47844 multiletter control sequences out of 15000+600000
+ 47846 multiletter control sequences out of 15000+600000
  565114 words of font info for 166 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  128i,12n,122p,1008b,843s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1452,10 +1450,10 @@ ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt8.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmtt9.pfb>
-Output written on 06a_lecture.pdf (37 pages, 1191757 bytes).
+Output written on 06a_lecture.pdf (38 pages, 1192243 bytes).
 PDF statistics:
- 400 PDF objects out of 1000 (max. 8388607)
- 296 compressed objects within 3 object streams
- 97 named destinations out of 1000 (max. 500000)
+ 405 PDF objects out of 1000 (max. 8388607)
+ 300 compressed objects within 3 object streams
+ 99 named destinations out of 1000 (max. 500000)
  57447 words of extra memory for PDF output out of 61914 (max. 10000000)
 

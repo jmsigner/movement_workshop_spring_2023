@@ -77,6 +77,7 @@ head(dat1)
 # `amt::make_track()` to steps. Ideally, we would before ensure a regular
 # sampling rate and go through the steps introduced earlier this week for data
 # cleaning.
+dat1
 dat1 |> steps() # steps_by_burst()
 
 # Adding random steps. 
@@ -163,7 +164,7 @@ dat1 |> steps() |>
 # distribution using:
 ta_distr(ssf.dat)
 
-# In the next module on simulations, we will learn how we can update these
+# In the next module on issf2, we will learn how we can update these
 # distributions to adjust for the influence of habitat selection when estimating
 # parameters of the movement kernel.
  

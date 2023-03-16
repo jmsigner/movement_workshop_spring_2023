@@ -31,7 +31,7 @@ library(amt)
 #   - land cover type (grassland = 1, forest = 2, wetland = 3) [condition]
 
 # If you want to see how I did that, check out the script "habitat.R". We can 
-# load those here as a RasterStack.
+# load those here as a SpatRast.
 
 hab <- rast("05 HSF/geo/habitat.tif")
 names(hab) <- c("forage", "temp", "predator", "cover")
