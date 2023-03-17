@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.10)  17 MAR 2023 09:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.10)  17 MAR 2023 09:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**06a_lecture.tex
-(./06a_lecture.tex
+**09a_lecture.tex
+(./09a_lecture.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/beam
 er/beamer.cls
@@ -931,8 +931,8 @@ Package: ulem 2019/11/18
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count371
 \l__pdf_internal_box=\box104
-) (./06a_lecture.aux)
-\openout1 = `06a_lecture.aux'.
+) (./09a_lecture.aux)
+\openout1 = `09a_lecture.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 250.
 LaTeX Font Info:    ... okay on input line 250.
@@ -1027,9 +1027,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 250.
 LaTeX Info: Redefining \pageref on input line 250.
 LaTeX Info: Redefining \nameref on input line 250.
-(./06a_lecture.out) (./06a_lecture.out)
+(./09a_lecture.out) (./09a_lecture.out)
 \@outlinefile=\write6
-\openout6 = `06a_lecture.out'.
+\openout6 = `09a_lecture.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 250.
@@ -1124,7 +1124,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-(./06a_lecture.nav)
+(./09a_lecture.nav)
 </home/jsigner/ownCloud/img/logo-uni.png, id=13, 480.79625pt x 397.485pt>
 File: /home/jsigner/ownCloud/img/logo-uni.png Graphic file (type png)
 <use /home/jsigner/ownCloud/img/logo-uni.png>
@@ -1143,7 +1143,7 @@ Package pdftex.def Info: /home/jsigner/ownCloud/img/logo-abteilung.png  used on
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/jsigner/ownCloud/img
 /logo-uni.png> </home/jsigner/ownCloud/img/logo-abteilung.png>]
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-269.
+268.
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1152,34 +1152,34 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-69.
+68.
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-269.
+268.
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-269.
+268.
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 269.
+(Font)              <10.95> on input line 268.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 269.
+(Font)              <8> on input line 268.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 269.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 269
+(Font)              <6> on input line 268.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 268
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 269
+LaTeX Font Info:    Trying to load font information for U+msb on input line 268
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1187,143 +1187,141 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 269.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 268.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 269.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 268.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 269.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 268.
 [2
 
-]
-<../img/northrup.png, id=33, 825.0825pt x 361.35pt>
-File: ../img/northrup.png Graphic file (type png)
-<use ../img/northrup.png>
-Package pdftex.def Info: ../img/northrup.png  used on input line 278.
-(pdftex.def)             Requested size: 215.10196pt x 94.20241pt.
-<../img/thurfjell.png, id=34, 939.51pt x 446.66875pt>
-File: ../img/thurfjell.png Graphic file (type png)
-<use ../img/thurfjell.png>
-Package pdftex.def Info: ../img/thurfjell.png  used on input line 278.
-(pdftex.def)             Requested size: 215.10196pt x 102.26137pt.
-[3
-
- <../img/northrup.png> <../img/thurfjell.png>]pdfTeX warning (ext4): destinatio
-n with the same identifier (name{good-overviews-are}) has been already used, du
-plicate ignored
-<to be read again> 
-                   \relax 
-l.278 \end{frame}
-                 
-File: ../img/northrup.png Graphic file (type png)
-<use ../img/northrup.png>
-Package pdftex.def Info: ../img/northrup.png  used on input line 278.
-(pdftex.def)             Requested size: 215.10196pt x 94.20241pt.
-File: ../img/thurfjell.png Graphic file (type png)
-<use ../img/thurfjell.png>
-Package pdftex.def Info: ../img/thurfjell.png  used on input line 278.
-(pdftex.def)             Requested size: 215.10196pt x 102.26137pt.
-[4
-
-] [5
-
-]
-\openout4 = `06a_lecture.vrb'.
-
-(./06a_lecture.vrb
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 8
-.
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) [6
+] [3
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 334.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 334.
+(Font)              <5> on input line 308.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 308.
+[4
+
+]
+<img/rsf.pdf, id=44, 844.15375pt x 597.23125pt>
+File: img/rsf.pdf Graphic file (type pdf)
+<use img/rsf.pdf>
+Package pdftex.def Info: img/rsf.pdf  used on input line 308.
+(pdftex.def)             Requested size: 159.25737pt x 112.6777pt.
+[5
+
+ <./img/rsf.pdf>]
+<img/ssf1.pdf, id=59, 505.89pt x 505.89pt>
+File: img/ssf1.pdf Graphic file (type pdf)
+<use img/ssf1.pdf>
+Package pdftex.def Info: img/ssf1.pdf  used on input line 308.
+(pdftex.def)             Requested size: 112.67789pt x 112.6777pt.
+<img/ssf10.pdf, id=60, 505.89pt x 505.89pt>
+File: img/ssf10.pdf Graphic file (type pdf)
+<use img/ssf10.pdf>
+Package pdftex.def Info: img/ssf10.pdf  used on input line 308.
+(pdftex.def)             Requested size: 112.67789pt x 112.6777pt.
+[6
+
+ <./img/ssf1.pdf> <./img/ssf10.pdf>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 333.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 333.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 333.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 333.
 [7
 
-]pdfTeX warning (ext4): destination with the same identifier (name{creating-ran
-dom-steps-for-ssf}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.334 \end{frame}
-                  [8
+]
+\openout4 = `09a_lecture.vrb'.
+
+(./09a_lecture.vrb
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+0.
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)) [8
 
 ]
-<img/ssf1.png, id=79, 794.97pt x 444.66125pt>
-File: img/ssf1.png Graphic file (type png)
-<use img/ssf1.png>
-Package pdftex.def Info: img/ssf1.png  used on input line 345.
-(pdftex.def)             Requested size: 261.19826pt x 146.10088pt.
+<img/signer2019.jpg, id=91, 256.74551pt x 133.80205pt>
+File: img/signer2019.jpg Graphic file (type jpg)
+<use img/signer2019.jpg>
+Package pdftex.def Info: img/signer2019.jpg  used on input line 363.
+(pdftex.def)             Requested size: 261.19826pt x 136.13531pt.
 [9
 
- <./img/ssf1.png>]
-<06a_lecture_files/figure-beamer/unnamed-chunk-4-1.pdf, id=87, 416.55624pt x 27
-7.035pt>
-File: 06a_lecture_files/figure-beamer/unnamed-chunk-4-1.pdf Graphic file (type 
-pdf)
-<use 06a_lecture_files/figure-beamer/unnamed-chunk-4-1.pdf>
-Package pdftex.def Info: 06a_lecture_files/figure-beamer/unnamed-chunk-4-1.pdf 
- used on input line 349.
-(pdftex.def)             Requested size: 261.19826pt x 173.72134pt.
-[10
+ <./img/signer2019.jpg>] [10
 
- <./06a_lecture_files/figure-beamer/unnamed-chunk-4-1.pdf>]
-<06a_lecture_files/figure-beamer/unnamed-chunk-5-1.pdf, id=104, 415.5525pt x 27
-7.035pt>
-File: 06a_lecture_files/figure-beamer/unnamed-chunk-5-1.pdf Graphic file (type 
-pdf)
-<use 06a_lecture_files/figure-beamer/unnamed-chunk-5-1.pdf>
-Package pdftex.def Info: 06a_lecture_files/figure-beamer/unnamed-chunk-5-1.pdf 
- used on input line 353.
-(pdftex.def)             Requested size: 261.19826pt x 174.13983pt.
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 405.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 405.
+<img/gillies.png, id=106, 672.5125pt x 127.47626pt>
+File: img/gillies.png Graphic file (type png)
+<use img/gillies.png>
+Package pdftex.def Info: img/gillies.png  used on input line 405.
+(pdftex.def)             Requested size: 184.3758pt x 34.94812pt.
 [11
 
- <./06a_lecture_files/figure-beamer/unnamed-chunk-5-1.pdf>] [12
-
-] [13
-
-]
-\openout4 = `06a_lecture.vrb'.
-
-(./06a_lecture.vrb) [14
-
-] (./06a_lecture.vrb) [15
-
-] [16
-
-] [17
-
-]
-<../img/avgar.png, id=156, 1024.82875pt x 413.545pt>
-File: ../img/avgar.png Graphic file (type png)
-<use ../img/avgar.png>
-Package pdftex.def Info: ../img/avgar.png  used on input line 450.
-(pdftex.def)             Requested size: 215.10196pt x 86.79652pt.
-<../img/fieberg.png, id=157, 1061.9675pt x 394.47375pt>
-File: ../img/fieberg.png Graphic file (type png)
-<use ../img/fieberg.png>
-Package pdftex.def Info: ../img/fieberg.png  used on input line 450.
-(pdftex.def)             Requested size: 215.10196pt x 79.89854pt.
-[18
-
- <../img/avgar.png> <../img/fieberg.png>]pdfTeX warning (ext4): destination wit
-h the same identifier (name{for-background-see}) has been already used, duplica
-te ignored
+ <./img/gillies.png>]pdfTeX warning (ext4): destination with the same identifie
+r (name{random-effects-for-hsfs}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.450 \end{frame}
+l.405 \end{frame}
                  
-File: ../img/avgar.png Graphic file (type png)
-<use ../img/avgar.png>
-Package pdftex.def Info: ../img/avgar.png  used on input line 450.
-(pdftex.def)             Requested size: 215.10196pt x 86.79652pt.
-File: ../img/fieberg.png Graphic file (type png)
-<use ../img/fieberg.png>
-Package pdftex.def Info: ../img/fieberg.png  used on input line 450.
-(pdftex.def)             Requested size: 215.10196pt x 79.89854pt.
-[19
+File: img/gillies.png Graphic file (type png)
+<use img/gillies.png>
+Package pdftex.def Info: img/gillies.png  used on input line 405.
+(pdftex.def)             Requested size: 184.3758pt x 34.94812pt.
+[12
+
+]pdfTeX warning (ext4): destination with the same identifier (name{random-effec
+ts-for-hsfs}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.405 \end{frame}
+                 
+File: img/gillies.png Graphic file (type png)
+<use img/gillies.png>
+Package pdftex.def Info: img/gillies.png  used on input line 405.
+(pdftex.def)             Requested size: 184.3758pt x 34.94812pt.
+[13
+
+]
+<../img/muff.png, id=126, 1028.84375pt x 439.6425pt>
+File: ../img/muff.png Graphic file (type png)
+<use ../img/muff.png>
+Package pdftex.def Info: ../img/muff.png  used on input line 412.
+(pdftex.def)             Requested size: 261.19826pt x 111.61427pt.
+[14
+
+ <../img/muff.png>] [15
+
+]
+\openout4 = `09a_lecture.vrb'.
+
+(./09a_lecture.vrb) [16
+
+]
+<../img/rsf_re.png, id=144, 341.3553pt x 227.4096pt>
+File: ../img/rsf_re.png Graphic file (type png)
+<use ../img/rsf_re.png>
+Package pdftex.def Info: ../img/rsf_re.png  used on input line 462.
+(pdftex.def)             Requested size: 261.19826pt x 174.01288pt.
+[17
+
+ <../img/rsf_re.png (PNG copy)>]
+File: ../img/rsf_re.png Graphic file (type png)
+<use ../img/rsf_re.png>
+Package pdftex.def Info: ../img/rsf_re.png  used on input line 462.
+(pdftex.def)             Requested size: 261.19826pt x 174.01288pt.
+[18
+
+] [19
 
 ] [20
 
@@ -1332,128 +1330,203 @@ Package pdftex.def Info: ../img/fieberg.png  used on input line 450.
 ] [22
 
 ]
-\openout4 = `06a_lecture.vrb'.
+<img/fig_rsf_fixed_vs_random_intercept1.pdf, id=186, 568.1225pt x 284.06125pt>
+File: img/fig_rsf_fixed_vs_random_intercept1.pdf Graphic file (type pdf)
+<use img/fig_rsf_fixed_vs_random_intercept1.pdf>
+Package pdftex.def Info: img/fig_rsf_fixed_vs_random_intercept1.pdf  used on in
+put line 549.
+(pdftex.def)             Requested size: 307.28987pt x 153.65083pt.
+[23
 
-(./06a_lecture.vrb
-<06a_lecture_files/figure-beamer/unnamed-chunk-9-1.pdf, id=189, 400.49625pt x 2
-17.81375pt>
-File: 06a_lecture_files/figure-beamer/unnamed-chunk-9-1.pdf Graphic file (type 
-pdf)
-<use 06a_lecture_files/figure-beamer/unnamed-chunk-9-1.pdf>
-Package pdftex.def Info: 06a_lecture_files/figure-beamer/unnamed-chunk-9-1.pdf 
- used on input line 11.
-(pdftex.def)             Requested size: 184.3758pt x 100.2753pt.
-) [23
+ <./img/fig_rsf_fixed_vs_random_intercept1.pdf>]pdfTeX warning (ext4): destinat
+ion with the same identifier (name{results-hsf}) has been already used, duplica
+te ignored
+<to be read again> 
+                   \relax 
+l.549 \end{frame}
+                 
+<img/fig_rsf_fixed_vs_random_intercept2.pdf, id=200, 568.1225pt x 284.06125pt>
+File: img/fig_rsf_fixed_vs_random_intercept2.pdf Graphic file (type pdf)
+<use img/fig_rsf_fixed_vs_random_intercept2.pdf>
+Package pdftex.def Info: img/fig_rsf_fixed_vs_random_intercept2.pdf  used on in
+put line 549.
+(pdftex.def)             Requested size: 307.28987pt x 153.65083pt.
+[24
 
- <./06a_lecture_files/figure-beamer/unnamed-chunk-9-1.pdf>] [24
+ <./img/fig_rsf_fixed_vs_random_intercept2.pdf>]pdfTeX warning (ext4): destinat
+ion with the same identifier (name{results-hsf}) has been already used, duplica
+te ignored
+<to be read again> 
+                   \relax 
+l.549 \end{frame}
+                 
+<img/fig_rsf_fixed_vs_random_intercept3.pdf, id=213, 568.1225pt x 284.06125pt>
+File: img/fig_rsf_fixed_vs_random_intercept3.pdf Graphic file (type pdf)
+<use img/fig_rsf_fixed_vs_random_intercept3.pdf>
+Package pdftex.def Info: img/fig_rsf_fixed_vs_random_intercept3.pdf  used on in
+put line 549.
+(pdftex.def)             Requested size: 307.28987pt x 153.65083pt.
+[25
 
-] [25
+ <./img/fig_rsf_fixed_vs_random_intercept3.pdf>]
+<img/fig_ssf_coefs_wrapper.pdf, id=227, page=1, 592.61403pt x 396.0396pt>
+File: img/fig_ssf_coefs_wrapper.pdf Graphic file (type pdf)
+<use img/fig_ssf_coefs_wrapper.pdf, page 1>
+Package pdftex.def Info: img/fig_ssf_coefs_wrapper.pdf , page1 used on input li
+ne 561.
+(pdftex.def)             Requested size: 307.28987pt x 205.36163pt.
 
-] [26
+Overfull \vbox (14.6387pt too high) detected at line 561
+ []
 
-]
-<06a_lecture_files/figure-beamer/unnamed-chunk-10-1.pdf, id=219, 424.58624pt x 
-271.0125pt>
-File: 06a_lecture_files/figure-beamer/unnamed-chunk-10-1.pdf Graphic file (type
- pdf)
-<use 06a_lecture_files/figure-beamer/unnamed-chunk-10-1.pdf>
-Package pdftex.def Info: 06a_lecture_files/figure-beamer/unnamed-chunk-10-1.pdf
-  used on input line 561.
-(pdftex.def)             Requested size: 307.28987pt x 196.15025pt.
+[26
+
+ <./img/fig_ssf_coefs_wrapper.pdf>]pdfTeX warning (ext4): destination with the 
+same identifier (name{results-ssf}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.561 \end{frame}
+                 
+<img/fig_ssf_coefs_wrapper.pdf, id=255, page=2, 592.61403pt x 396.0396pt>
+File: img/fig_ssf_coefs_wrapper.pdf Graphic file (type pdf)
+<use img/fig_ssf_coefs_wrapper.pdf, page 2>
+Package pdftex.def Info: img/fig_ssf_coefs_wrapper.pdf , page2 used on input li
+ne 561.
+(pdftex.def)             Requested size: 307.28987pt x 205.36163pt.
+
+Overfull \vbox (14.6387pt too high) detected at line 561
+ []
+
 [27
 
- <./06a_lecture_files/figure-beamer/unnamed-chunk-10-1.pdf>] [28
+ <./img/fig_ssf_coefs_wrapper.pdf>]pdfTeX warning (ext4): destination with the 
+same identifier (name{results-ssf}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.561 \end{frame}
+                 
+<img/fig_ssf_coefs_wrapper.pdf, id=274, page=3, 592.61403pt x 396.0396pt>
+File: img/fig_ssf_coefs_wrapper.pdf Graphic file (type pdf)
+<use img/fig_ssf_coefs_wrapper.pdf, page 3>
+Package pdftex.def Info: img/fig_ssf_coefs_wrapper.pdf , page3 used on input li
+ne 561.
+(pdftex.def)             Requested size: 307.28987pt x 205.36163pt.
 
-]
-<../01 Introduction/img/moll3_part.jpg, id=238, 2134.97626pt x 808.01875pt>
-File: ../01 Introduction/img/moll3_part.jpg Graphic file (type jpg)
-<use ../01 Introduction/img/moll3_part.jpg>
-Package pdftex.def Info: ../01 Introduction/img/moll3_part.jpg  used on input l
-ine 597.
-(pdftex.def)             Requested size: 261.19826pt x 98.84445pt.
+Overfull \vbox (14.6387pt too high) detected at line 561
+ []
+
+[28
+
+ <./img/fig_ssf_coefs_wrapper.pdf>]pdfTeX warning (ext4): destination with the 
+same identifier (name{results-ssf}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.561 \end{frame}
+                 
+<img/fig_ssf_coefs_wrapper.pdf, id=294, page=4, 592.61403pt x 396.0396pt>
+File: img/fig_ssf_coefs_wrapper.pdf Graphic file (type pdf)
+<use img/fig_ssf_coefs_wrapper.pdf, page 4>
+Package pdftex.def Info: img/fig_ssf_coefs_wrapper.pdf , page4 used on input li
+ne 561.
+(pdftex.def)             Requested size: 307.28987pt x 205.36163pt.
+
+Overfull \vbox (1.0387pt too high) detected at line 561
+ []
+
 [29
 
- <../01 Introduction/img/moll3_part.jpg>] [30
+ <./img/fig_ssf_coefs_wrapper.pdf>]
+\openout4 = `09a_lecture.vrb'.
 
-] [31
+(./09a_lecture.vrb) [30
 
 ]
-File: img/ssf1.png Graphic file (type png)
-<use img/ssf1.png>
-Package pdftex.def Info: img/ssf1.png  used on input line 636.
-(pdftex.def)             Requested size: 261.19826pt x 146.10088pt.
+<img/roshier21.png, id=319, 1393.205pt x 502.87875pt>
+File: img/roshier21.png Graphic file (type png)
+<use img/roshier21.png>
+Package pdftex.def Info: img/roshier21.png  used on input line 602.
+(pdftex.def)             Requested size: 307.28987pt x 110.91757pt.
+[31
+
+ <./img/roshier21.png>]
+<img/relocs.png, id=328, 786.68906pt x 540.51938pt>
+File: img/relocs.png Graphic file (type png)
+<use img/relocs.png>
+Package pdftex.def Info: img/relocs.png  used on input line 617.
+(pdftex.def)             Requested size: 245.83282pt x 168.90364pt.
+
+Overfull \vbox (4.33159pt too high) detected at line 617
+ []
+
 [32
 
-] [33
+ <./img/relocs.png (PNG copy)>]
+\openout4 = `09a_lecture.vrb'.
+
+(./09a_lecture.vrb) [33
 
 ] [34
 
 ]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 706.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 706.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 706.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 706.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 706.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 706.
+<img/fig_selection.png, id=347, 505.89pt x 216.81pt>
+File: img/fig_selection.png Graphic file (type png)
+<use img/fig_selection.png>
+Package pdftex.def Info: img/fig_selection.png  used on input line 661.
+(pdftex.def)             Requested size: 307.28987pt x 131.6981pt.
 [35
 
-] [36
+ <./img/fig_selection.png>]
+<img/fig_speed.png, id=355, 505.89pt x 216.81pt>
+File: img/fig_speed.png Graphic file (type png)
+<use img/fig_speed.png>
+Package pdftex.def Info: img/fig_speed.png  used on input line 668.
+(pdftex.def)             Requested size: 307.28987pt x 131.6981pt.
+[36
 
-] [37
-
-]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 768.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 768.
-[38
+ <./img/fig_speed.png>] [37
 
 ]
 \tf@nav=\write7
-\openout7 = `06a_lecture.nav'.
+\openout7 = `09a_lecture.nav'.
 
 \tf@toc=\write8
-\openout8 = `06a_lecture.toc'.
+\openout8 = `09a_lecture.toc'.
 
 \tf@snm=\write9
-\openout9 = `06a_lecture.snm'.
+\openout9 = `09a_lecture.snm'.
 
-(./06a_lecture.aux)
-Package rerunfilecheck Info: File `06a_lecture.out' has not changed.
+(./09a_lecture.aux)
+Package rerunfilecheck Info: File `09a_lecture.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  30805 strings out of 480121
- 596609 string characters out of 5892160
- 863063 words of memory out of 5000000
- 47846 multiletter control sequences out of 15000+600000
- 565114 words of font info for 166 fonts, out of 8000000 for 9000
+ 596573 string characters out of 5892160
+ 861973 words of memory out of 5000000
+ 47869 multiletter control sequences out of 15000+600000
+ 557595 words of font info for 152 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 128i,12n,122p,1008b,843s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
--mathex.enc}</usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
-8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/font
-s/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmsso8.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt8.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmtt9.pfb>
-Output written on 06a_lecture.pdf (38 pages, 1192096 bytes).
+ 128i,12n,122p,1008b,747s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/l
+m/lm-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
+10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/font
+s/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmsso8.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmtti10.pfb>
+Output written on 09a_lecture.pdf (37 pages, 1580660 bytes).
 PDF statistics:
- 405 PDF objects out of 1000 (max. 8388607)
- 300 compressed objects within 3 object streams
- 99 named destinations out of 1000 (max. 500000)
- 57447 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 461 PDF objects out of 1000 (max. 8388607)
+ 349 compressed objects within 4 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 53391 words of extra memory for PDF output out of 61914 (max. 10000000)
 

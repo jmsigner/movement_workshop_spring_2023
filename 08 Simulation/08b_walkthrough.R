@@ -48,7 +48,6 @@ start <- make_start(ssf_cilla[1, ])
 # We can then create a redistribution kernel (i.e., a probability surface of
 # where the animal will move next).
 k1 <- redistribution_kernel(m_0, map = env, start = start, as.rast = TRUE)
-k1
 plot(k1$redistribution.kernel)
 
 # There are a number of options that can be set here: 
@@ -59,7 +58,7 @@ k1 <- redistribution_kernel(m_0, map = env, start = start,
 # Or we could draw 1000 100 steps 
 k1 <- redistribution_kernel(m_0, map = env, start = start,
                             stochastic = TRUE, tolerance.outside = 0.2, as.rast = FALSE, 
-                            n.control = 1e5, n.sample = 1000)
+                            n.control = 1e4, n.sample = 1000)
 
 # Lets visualize this
 plot(k1$redistribution.kernel[, 1:2], asp = 1)
@@ -78,7 +77,7 @@ s1
 
 # Next we can visualize the results and compare it with the real trajectory.
 raster::plot(env[["elev"]])
-with(cilla[1:201, ], lines(x_, y_))
+with(cilla[1:501, ], lines(x_, y_))
 lines(s1$x_, s1$y_, col = "red")
 
 # We see that the trajectory shows some kind of home-range behavior.
@@ -92,9 +91,9 @@ m_1 <- fit_clogit(ssf_cilla, case_ ~ cos(ta_) + sl_ + log(sl_) +
                     water_dist_end + x2_ + y2_ + I(x2_^2 + y2_^2) + strata(step_id_))
 summary(m_1)
 
-k2 <- redistribution_kernel(m_1, map = stack(env), start = make_start(ssf_cilla[1, ]),
+k2 <- redistribution_kernel(m_1, map = env, start = make_start(ssf_cilla[1, ]),
                             stochastic = TRUE, 
-                            tolerance.outside = 0.01, as.raster = FALSE, n.sample = 100, 
+                            tolerance.outside = 0.01, as.rast = FALSE, n.sample = 100, 
                             n.control = 1e3)
 s2 <- simulate_path(k2, n.steps = 200)
 
@@ -115,18 +114,21 @@ lines(s2$x_, s2$y_, col = "red")
 # First lets create a new covariate, that distinguished the two sides of the
 # river.
 water <- env[["water_dist"]] > 100
-water <- crop(water, extent(water) - 5000)
-raster::plot(water)
+water <- crop(water, water - 5000)
+plot(water)
 
 # We can use the connected components algorigthm that is implemented in the
 # raster package with the `clump()` function.
-ww <- clump(water)
-raster::plot(ww)
-ww[ww == 0] <- 2
+water <- env[["water_dist"]] > 100
+water <- crop(water, ext(water) - 5000)
+plot(water)
+ww <- patches(water, zeroAsNA = TRUE)
+plot(ww)
+ww[ww == 3] <- 2
 
 # And give the new layer a meaningful name and add it to the raster stack.
 names(ww) <- "water_crossed"
-env1 <- raster::stack(ww, crop(env, ww))
+env1 <- c(ww, crop(env, ww))
 
 # We have to extract the covariates again, to also have the side of the river,
 # where a step started and ended.
@@ -156,15 +158,15 @@ ssf_cilla %>% mutate(cross = water_crossed_end != water_crossed_start) %>%
 
 # Again we to create a redistribution kernel
 k3 <- redistribution_kernel(
-  m_3, map = stack(env1), start = make_start(ssf_cilla[1, ]),
-  stochastic = TRUE, tolerance.outside = 0.1, as.raster = FALSE, 
+  m_3, map = env1, start = make_start(ssf_cilla[1, ]),
+  stochastic = TRUE, tolerance.outside = 0.1, as.rast = FALSE, 
   n.sample = 100, n.control = 1e3)
 
 # And we can then simulate a trajectory from this kernel.
 s3 <- simulate_path(k3, n.steps = 500)
 
 # And finally plot the result
-raster::plot(env1[["water_crossed"]])
+plot(env1[["water_crossed"]])
 lines(cilla$x_, cilla$y_)
 lines(s3$x_, s3$y_, col = "red")
 
@@ -191,8 +193,8 @@ coef(m_3) == coef(m_3a)
 
 # Calculating the redistribution kernel again, will result in an error:
 k3 <- redistribution_kernel(
-  m_3a, map = stack(env1), start = make_start(ssf_cilla[1, ]),
-  stochastic = TRUE, tolerance.outside = 0.1, as.raster = FALSE, 
+  m_3a, map = env1, start = make_start(ssf_cilla[1, ]),
+  stochastic = TRUE, tolerance.outside = 0.1, as.rast = FALSE, 
   n.sample = 100, n.control = 1e3)
 
 # Because the new variable crossed is not found. We have to adjust the function
@@ -201,8 +203,8 @@ k3 <- redistribution_kernel(
   m_3a, 
   fun = function(x, map) extract_covariates(x, map, where = "both") %>% 
     mutate(crossed = water_crossed_end != water_crossed_start),
-  map = stack(env1), start = make_start(ssf_cilla[1, ]),
-  stochastic = TRUE, tolerance.outside = 0.1, as.raster = FALSE, 
+  map = env1, start = make_start(ssf_cilla[1, ]),
+  stochastic = TRUE, tolerance.outside = 0.1, as.rast = FALSE, 
   n.sample = 100, n.control = 1e3)
 
 # Simulate from scratch
@@ -238,6 +240,8 @@ rdk.1a <- redistribution_kernel(
 
 # Now simulate one path (i.e. one animal)
 p1 <- simulate_path(rdk.1a, n.steps = 20, start = start)
+plot(r)
+lines(p1$x_, p1$y_)
 
 # Repeat this for 50 animals
 n <- 50
